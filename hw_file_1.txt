@@ -49,4 +49,10 @@
   224  cp hw_file_1.txt ~/homework/
   225  rm ~/homework/hw_file_1.txt
   226  tree ~ >> hw_file_1.txt
-  227  history >> hw_file_1.txt
+  228  git clone https://github.com/AkimovMaxim/Bioinformatics_2025_maksim
+  229  mv hw_file_1.txt Bioinformatics_2025_maksim/
+  235  cd  Bioinformatics_2025_maksim/
+  236  git add hw_file_1.txt
+  237  git commit -m "Добавил файл с первым домашним заданием"
+  238  git push origin main
+  239  history >> hw_file_1.txt
