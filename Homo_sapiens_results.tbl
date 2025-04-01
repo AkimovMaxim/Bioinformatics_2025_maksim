@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NP_001036.1          -          5HT_transport_N      PF03491.18     2e-26   94.6   1.4   3.9e-26   93.7   1.4   1.5   1   0   0   1   1   1   1 sodium-dependent serotonin transporter [Homo sapiens]
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      PF03491.hmm
+# Target file:     Homo_sapiens/ncbi_dataset/data/GCF_000001405.40/protein.faa
+# Option settings: hmmsearch --tblout results.tbl PF03491.hmm Homo_sapiens/ncbi_dataset/data/GCF_000001405.40/protein.faa 
+# Current dir:     /home/makimov/hmm_hw
+# Date:            Sat Mar 29 11:25:46 2025
+# [ok]

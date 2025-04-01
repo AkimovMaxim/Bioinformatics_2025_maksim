@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+XP_044900343.1       -          5HT_transport_N      PF03491.18   6.9e-26   92.0   1.3   1.4e-25   91.0   1.3   1.6   1   0   0   1   1   1   1 sodium-dependent serotonin transporter isoform X2 [Felis catus]
+XP_044900342.1       -          5HT_transport_N      PF03491.18   7.7e-26   91.9   1.3   1.6e-25   90.9   1.3   1.5   1   0   0   1   1   1   1 sodium-dependent serotonin transporter isoform X1 [Felis catus]
+XP_023106410.1       -          5HT_transport_N      PF03491.18      0.29   13.2   3.9       1.1   11.4   0.4   2.6   2   0   0   2   2   2   0 uncharacterized protein LOC111559549 [Felis catus]
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      PF03491.hmm
+# Target file:     Felis_catus/ncbi_dataset/data/GCF_018350175.1/Felis_catus_protein.faa
+# Option settings: hmmsearch --tblout Felis_catus_results.tbl PF03491.hmm Felis_catus/ncbi_dataset/data/GCF_018350175.1/Felis_catus_protein.faa 
+# Current dir:     /home/makimov/hmm_hw
+# Date:            Sat Mar 29 11:28:43 2025
+# [ok]
