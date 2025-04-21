@@ -1,14 +1,22 @@
 Script started on 2025-04-19 14:59:39+03:00 [TERM="xterm" TTY="/dev/pts/106" COLUMNS="100" LINES="35"]
 (base) ]0;makimov@frontend-2-2-13: ~/hw_8makimov@frontend-2-2-13:~/hw_8$ bash 4.sh
 (base) ]0;makimov@frontend-2-2-13: ~/hw_8makimov@frontend-2-2-13:~/hw_8$ cat fout
-20
-Hello, world!
-f
-
-Sam
-957779
-Varun
-077712
+20
+
+Hello, world!
+
+f
+
+
+
+Sam
+
+957779
+
+Varun
+
+077712
+
 (base) ]0;makimov@frontend-2-2-13: ~/hw_8makimov@frontend-2-2-13:~/hw_8$ exo it
 exit
 
