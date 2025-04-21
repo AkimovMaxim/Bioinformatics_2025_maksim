@@ -1,0 +1,8 @@
+Script started on 2025-04-19 13:46:23+03:00 [TERM="xterm" TTY="/dev/pts/112" COLUMNS="100" LINES="35"]
+(base) ]0;makimov@frontend-2-2-13: ~/hw_8makimov@frontend-2-2-13:~/hw_8$ bash 1.sh
+(base) ]0;makimov@frontend-2-2-13: ~/hw_8makimov@frontend-2-2-13:~/hw_8$ cat fout
+20
+(base) ]0;makimov@frontend-2-2-13: ~/hw_8makimov@frontend-2-2-13:~/hw_8$ exit
+exit
+
+Script done on 2025-04-19 13:46:39+03:00 [COMMAND_EXIT_CODE="0"]
