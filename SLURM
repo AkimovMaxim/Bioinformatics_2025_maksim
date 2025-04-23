@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source ~/.bashrc
+conda activate sra_tutorial
+
+mkdir -p fastqc_reports
+mkdir -p multiqc_report
+fastqc *.fastq.gz -o ./fastqc_reports -t 4
+
+multiqc ./fastqc_reports -o ./multiqc_report
+
