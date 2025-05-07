@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --job-name=trimming
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=20gb
+#SBATCH --time=0:30:00
+#SBATCH --output=trimming.%j.log
+#SBATCH --mail-type=END
+#SBATCH --mail-user=akimov.mi@phystech.edu
+#SBATCH --partition=short
+#SBATCH --constraint=hpc
+
+source activate trimming
+
+trimmomatic PE -phred33 \
+	  illumina_reads_R1_001.fastq \
+	    illumina_reads_R2_001.fastq \
+	      illumina_R1_paired.fastq illumina_R1_unpaired.fastq \
+	        illumina_R2_paired.fastq illumina_R2_unpaired.fastq \
+		  ILLUMINACLIP:adapters.fa:2:30:10 \
+		    LEADING:20 \
+		      TRAILING:20 \
+		        SLIDINGWINDOW:4:20 \
+			  MINLEN:50
