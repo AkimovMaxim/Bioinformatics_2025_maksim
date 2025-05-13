@@ -1,0 +1,88 @@
+WARNING: fastp uses up to 16 threads although you specified 20
+Read1 before filtering:
+total reads: 74075745
+total bases: 11111361750
+Q20 bases: 10768728629(96.9164%)
+Q30 bases: 10092919652(90.8342%)
+
+Read2 before filtering:
+total reads: 74075745
+total bases: 11111361750
+Q20 bases: 10625780524(95.6299%)
+Q30 bases: 9688490256(87.1944%)
+
+Read1 after filtering:
+total reads: 64596781
+total bases: 7609902357
+Q20 bases: 7538473320(99.0614%)
+Q30 bases: 7250467469(95.2767%)
+
+Read2 after filtering:
+total reads: 64596781
+total bases: 7011923998
+Q20 bases: 6943664874(99.0265%)
+Q30 bases: 6616007635(94.3537%)
+
+Filtering result:
+reads passed filter: 129193562
+reads failed due to low quality: 3140
+reads failed due to too many N: 0
+reads failed due to too short: 18954788
+reads with adapter trimmed: 2379862
+bases trimmed due to adapters: 76123791
+reads with polyX in 3' end: 1450502
+bases trimmed in polyX tail: 20355297
+
+Duplication rate: 0.973278%
+
+Insert size peak (evaluated by paired-end reads): 168
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -w 20 -i /home/makimov/homeworks/hw_12/genomics/raw/WGSB_46_01_PTV291209_325278_3_1.fq.gz -I /home/makimov/homeworks/hw_12/genomics/raw/WGSB_46_01_PTV291209_325278_3_2.fq.gz -o WGSB_46_01_PTV291209_325278_3_1.fq.gz -O WGSB_46_01_PTV291209_325278_3_2.fq.gz --unpaired1 WGSB_46_01_PTV291209_325278_3_U.fq.gz --unpaired2 WGSB_46_01_PTV291209_325278_3_U.fq.gz -x -5 -r -f 15 -M 25 
+fastp v0.24.1, time used: 297 seconds
+WARNING: fastp uses up to 16 threads although you specified 20
+Read1 before filtering:
+total reads: 74380954
+total bases: 11157143100
+Q20 bases: 10821973412(96.9959%)
+Q30 bases: 10163835900(91.0971%)
+
+Read2 before filtering:
+total reads: 74380954
+total bases: 11157143100
+Q20 bases: 10614261795(95.1342%)
+Q30 bases: 9642715487(86.4264%)
+
+Read1 after filtering:
+total reads: 65462970
+total bases: 7701456051
+Q20 bases: 7630030904(99.0726%)
+Q30 bases: 7344076007(95.3596%)
+
+Read2 after filtering:
+total reads: 65462970
+total bases: 6933975624
+Q20 bases: 6859981578(98.9329%)
+Q30 bases: 6524778752(94.0987%)
+
+Filtering result:
+reads passed filter: 130925940
+reads failed due to low quality: 3318
+reads failed due to too many N: 0
+reads failed due to too short: 17832650
+reads with adapter trimmed: 2241328
+bases trimmed due to adapters: 68747159
+reads with polyX in 3' end: 1479488
+bases trimmed in polyX tail: 20844829
+
+Duplication rate: 0.984399%
+
+Insert size peak (evaluated by paired-end reads): 168
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -w 20 -i /home/makimov/homeworks/hw_12/genomics/raw/WGSB_46_01_PTV291209_325278_2_1.fq.gz -I /home/makimov/homeworks/hw_12/genomics/raw/WGSB_46_01_PTV291209_325278_2_2.fq.gz -o WGSB_46_01_PTV291209_325278_2_1.fq.gz -O WGSB_46_01_PTV291209_325278_2_2.fq.gz --unpaired1 WGSB_46_01_PTV291209_325278_2_U.fq.gz --unpaired2 WGSB_46_01_PTV291209_325278_2_U.fq.gz -x -5 -r -f 15 -M 25 
+fastp v0.24.1, time used: 301 seconds
