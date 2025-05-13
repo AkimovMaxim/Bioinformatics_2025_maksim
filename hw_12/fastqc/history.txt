@@ -1,0 +1,36 @@
+ 1173  ls
+ 1174  cd homeworks
+ 1175  ls
+ 1176  mkdir hw_12
+ 1177  ls
+ 1178  cd hw_12
+ 1179  mkdir genomics
+ 1180  ls
+ 1181  cd genomics
+ 1182  mkdir fastqc
+ 1183  mkdir trimmed
+ 1184  mkdir align
+ 1185  mkdir variant_calling
+ 1186  mkdir sam
+ 1187  cd trimmed
+ 1188  mksir fastqc
+ 1189  ls
+ 1190  cd ../
+ 1191  ls
+ 1192  cd fastqc
+ 1193  vim fastqc.sh
+ 1197  conda create -n ngs python=3.9 -y
+ 1198  conda activate ngs
+ 1199  conda install -c conda-forge -c bioconda   fastqc   multiqc   trimmomatic   fastp   -y
+ 1200  cd fastqc
+ 1201  ls
+ 1202  vim fastqc.sh
+ 1203  sbatch fastqc.sh
+ 1204  vim fastqc.sh
+ 1205  sbatch fastqc.sh
+ 1221  ls
+ 1222  cd homeworks/hw_12/genomics/fastqc
+ 1237  sbatch fastqc.sh
+ 1238  squeue -u $USER
+ 1240  multiqc .
+ 1241  history
