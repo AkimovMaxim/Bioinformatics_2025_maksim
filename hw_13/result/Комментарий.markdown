@@ -2,11 +2,13 @@
 Каждая строка описывает один элемент: ген, транскрипт, экзон, CDS и т.д.
 
 Каждая строка содержит 9 полей, разделённых табуляцией:
+```
 <seqname>  <source>  <feature>  <start>  <end>  <score>  <strand>  <frame>  <attribute>
-
+```
+~~~
 Пример строки:
 chr1	HAVANA	gene	11869	14409	.	+	.	gene_id "ENSG00000223972.5"; gene_name "DDX11L1";
-
+~~~
 Типичные значения поля feature
 
 feature	Описание
